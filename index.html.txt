@@ -1,0 +1,17 @@
+!DOCTYPE html
+html
+head
+    meta charset=UTF-8
+    titleExcel File Processortitle
+    link rel=stylesheet type=textcss href=styles.css
+head
+body
+    div class=container
+        h1Excel File Processorh1
+        input type=file id=fileInput accept=.xlsx multiple
+        button id=processButtonProcess Excel Filesbutton
+        a id=downloadLink style=display none download=combined_excel.xlsxDownload Resulta
+    div
+    script src=script.jsscript
+body
+html
